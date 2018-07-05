@@ -1,0 +1,4 @@
+g++ -c -o tetris.o tetris.cpp -std=c++0x
+g++ -c -o miniwin.o miniwin.cpp	-std=c++0x
+g++ -o tetris *.o  -pthread -lX11
+
